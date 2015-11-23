@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+    id="com.elkayamRaz.REPhonegapPlugin"
+    version="0.1.0">
+    
+    <name>REPhonegapPlugin</name>
+    
+    <description>Custom plugin for phonegap in ios</description>
+    
+    <author>Raz Elkayam</author>
+    
+    <!-- ios -->
+    <platform name="ios">
+        
+        <config-file target="config.xml" parent="/*">
+            <feature name="REPhonegapPlugin">
+                <param name="ios-package" value="REPhonegapPlugin" />
+            </feature>
+        </config-file>
+        
+        <js-module src="www/REPhonegapPlugin.js" name="REPhonegapPlugin">
+            <clobbers target="REPhonegapPlugin" />
+        </js-module>
+        
+        <!-- Plugin files -->
+        <header-file src="src/ios/REPhonegapPlugin.h" />
+        <source-file src="src/ios/REPhonegapPlugin.m" />
+        
+        <!-- System frameworks -->
+        <framework src="Foundation.framework" weak="true" />
+        <framework src="UIKit.framework" weak="true" />
+        
+    </platform>
+</plugin>

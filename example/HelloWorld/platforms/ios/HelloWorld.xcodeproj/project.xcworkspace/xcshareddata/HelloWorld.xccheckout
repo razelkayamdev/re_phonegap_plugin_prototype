@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>59BE6CA7-E035-41DB-AAE7-7C07E00E6A45</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HelloWorld</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0AC71172C9190989298A7A25D1A753FB02DA1B89</key>
+		<string>https://github.com/elkayamraz/REPhonegapPluginPrototype.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>example/HelloWorld/platforms/ios/HelloWorld.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0AC71172C9190989298A7A25D1A753FB02DA1B89</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/elkayamraz/REPhonegapPluginPrototype.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0AC71172C9190989298A7A25D1A753FB02DA1B89</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0AC71172C9190989298A7A25D1A753FB02DA1B89</string>
+			<key>IDESourceControlWCCName</key>
+			<string>re_phonegap_plugin_prototype</string>
+		</dict>
+	</array>
+</dict>
+</plist>
